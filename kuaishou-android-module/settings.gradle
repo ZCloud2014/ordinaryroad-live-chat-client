@@ -1,0 +1,3 @@
+rootProject.name = "kuaishou-live-module"
+include ':kuaishou-android-module'
+project(':kuaishou-android-module').projectDir = new File(settingsDir, '.')
